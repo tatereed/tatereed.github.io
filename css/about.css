@@ -1,0 +1,55 @@
+@font-face {
+    font-family: customFont; 
+    src: url("../fonts/Louis George Cafe.ttf");
+}
+*{
+	box-sizing: border-box;
+}
+.body{
+	width: 1280px;
+	background-color: #adadad;
+	font-family: customFont, sans-serif;
+	margin: auto;
+}
+.navigationBar{
+	clear: both;
+	width: 100%;
+	background-color: #002791;
+	padding-top:5px;
+	padding-bottom:23px;
+	margin-top: 20px;
+}
+.navigationLinks{
+	float: left;
+	color: #ffffff;
+}
+.links{
+	text-decoration: none;
+	color: #ffffff;
+	
+}
+.contents1Container{
+	clear: both;
+	float: left;
+	width: 33%;
+	background-color: #ffffff;
+	height: 300px;
+	margin-top: 10px;
+
+}
+.contents2Container{
+	float: left;
+	width: 33%;
+	margin-left: 6px;
+	margin-top: 10px;
+	background-color: #ffffff;
+	height: 300px;
+}
+.contents3Container{
+	float: left;
+	width: 33%;
+	margin-left: 6px;
+	margin-top: 10px;
+	background-color: #ffffff;
+	height: 300px;
+}
