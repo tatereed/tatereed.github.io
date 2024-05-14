@@ -1,0 +1,42 @@
+@font-face {
+    font-family: JetBrainsMono;
+    src: url("fonts/JetBrainsMono-Regular.ttf");
+}
+@font-face {
+    font-family: JetBrainsMono;
+    font-weight: bold;
+    src: url("fonts/JetBrainsMono-Bold.ttf");
+}
+@font-face {
+    font-family: JetBrainsMono;
+    font-style: italic;
+    src: url("fonts/JetBrainsMono-Italic.ttf");
+}
+@font-face {
+    font-family: JetBrainsMono;
+    font-weight: bold;
+    font-style: italic;
+    src: url("fonts/JetBrainsMono-BoldItalic.ttf");
+}
+
+body {
+    font-family: JetBrainsMono;
+    background-color: #acacad;
+}
+
+.tatereed {
+    color: #b50202;
+}
+
+.dot {
+    color: #e0ca00;
+}
+
+.net {
+    color: #1b3e75;
+}
+h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px;
+}
